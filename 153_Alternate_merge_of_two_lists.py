@@ -20,3 +20,14 @@ def alternate_merge(list1, list2):
 print(alternate_merge(['a', 'b'], ['c', 'd', 'e']))
 # Output: ['a', 'c', 'b', 'd', 'e']
 
+print(alternate_merge(['x', 'y', 'z'], ['1', '2']))
+# Output: ['x', '1', 'y', '2', 'z']
+
+print(alternate_merge(['apple', 'banana'], ['grape', 'pineapple', 'blueberry']))
+# Output: ['apple', 'grape', 'banana', 'pineapple', 'blueberry']
+
+print(alternate_merge([], ['a', 'b', 'c']))
+# Output: ['a', 'b', 'c']
+
+print(alternate_merge(['short', 'words'], ['a_very_long_word', 'tiny']))
+# Output: ['short', 'a_very_long_word', 'words', 'tiny']
