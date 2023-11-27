@@ -8,7 +8,7 @@ def alternate_merge(list1, list2):
             merged_list.append(list1[i])
 
         if i < len(list2):
-            print(list2[i])
+            #print(list2[i])
             merged_list.append(list2[i])
 
     return merged_list
